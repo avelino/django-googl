@@ -16,7 +16,11 @@ classifiers = ['Environment :: Plugins',
     'Programming Language :: Python',
     'Topic :: Software Development :: Libraries :: Python Modules',]
 
-long_description = open('README.md').read()
+long_description = description
+try:
+    long_description = open('README.md').read()
+except:
+    pass
 
 setup(name='django-googl',
     version = version,
