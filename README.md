@@ -21,3 +21,9 @@ Load **googl** in your template:
 And use **googl** filter:
 
     {{ "http://google.com"|googl }}
+
+Use **googl** in backend:
+
+    from googl.short import GooglUrlShort
+    
+    GooglUrlShort("http://avelino.us/").short()
