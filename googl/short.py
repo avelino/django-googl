@@ -26,7 +26,10 @@ class GooglUrlShort(object):
         if all_response is True:
             return json_data
         else:
-            return json.loads(json_data)['id'] if "id" in json_data else ""
+            data = json.loads(json_data)
+            if 'id' in data:
+                return json.loads(json_data)['id']
+            return ""
 
     def expend(self, all_response = False):
         json_data = urllib.urlopen("https://www.googleapis.com/urlshortener/v1/url?shortUrl=%s" % self.url).read()
