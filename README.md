@@ -1,4 +1,6 @@
 # django-googl
+[![PyPi version](https://pypip.in/v/django-googl/badge.png)](https://crate.io/packages/django-googl/)
+[![PyPi downloads](https://pypip.in/d/django-googl/badge.png)](https://crate.io/packages/django-googl/)
 
 Django short url on goo.gl
 
