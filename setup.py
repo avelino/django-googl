@@ -6,7 +6,7 @@ from setuptools import setup, find_packages
 
 
 version = '0.1.2'
-description = u"Django goo.gl app"
+description = u"Django shorturl via goo.gl"
 
 classifiers = ['Environment :: Plugins',
     'Framework :: Django',
@@ -27,7 +27,7 @@ setup(name='django-googl',
     description = description,
     long_description = long_description,
     classifiers = classifiers,
-    keywords = 'django apps googl google api ',
+    keywords = 'django apps googl google api short url',
     author = 'Thiago Avelino',
     author_email = 'thiagoavelinoster@gmail.com',
     url = 'https://github.com/avelino/django-googl/',
